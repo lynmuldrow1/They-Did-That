@@ -3,7 +3,7 @@ import {
   AppBar,
   Toolbar,
   Typography,
-} from '@material-ui';
+} from 'material-ui';
 
 const AppHeader = () => (
   <AppBar position="static">
