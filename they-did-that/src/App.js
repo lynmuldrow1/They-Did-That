@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import {
+  CssBaseline,
   withStyles,
 } from '@material-ui/core';
 
@@ -17,6 +18,7 @@ const styles = theme => ({
 
 const App = ({ classes }) => (
   <Fragment>
+    <CssBaseline />
     <AppHeader />
     <main className={classes.main}>
       <Home />
