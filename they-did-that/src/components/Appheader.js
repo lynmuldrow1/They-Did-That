@@ -3,7 +3,7 @@ import {
   AppBar,
   Toolbar,
   Typography,
-} from 'material-ui';
+} from '@material-ui/core';
 
 const AppHeader = () => (
   <AppBar position="static">
@@ -12,7 +12,7 @@ const AppHeader = () => (
         They Did That
       </Typography>
     </Toolbar>
-  <AppBar>
+  </AppBar>
 );
 
 export default AppHeader;
